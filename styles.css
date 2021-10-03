@@ -1,0 +1,5 @@
+/* Cambiamos los estilos del boton con la clase .addeventatc */
+
+/* Quitamos la marca de agua de "AddEvent" en el menu despegable*/
+.addeventatc_dropdown {padding:6px 0px !important;}
+.addeventatc_dropdown .copyx {display:none !important;}

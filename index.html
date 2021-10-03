@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>google calendar</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Button code  data-direct="google"(Reedirigir a un solo calendario)-->
+    <!-- data-styling="none. Con este atributo quitamos todos los estilos del boton para agregar los propios -->
+    <!-- En este apartado agragamos la informacion del evento, se pueden agregar más cosas o quitar lo inecesario -->
+    <div title="Add to Calendar" class="addeventatc"> 
+        Agendar día
+        <span class="start">17-10-2021 15:00</span>
+        <span class="end">17-10-2021 22:00</span>
+        <span class="timezone">América/Mexico_City</span>
+        <span class="title">Boda de Juan y María</span>
+        <span class="description">Te invitamos a que seas parte de nuestra boda</span>
+        <span class="location">Guadalajara Jalisco</span>
+        <span class="organizer">Juan Johnson</span>
+        <span class="organizer_email">juan@example.com</span>
+    </div>
+
+    <!-- AddEvent script -->
+    <script type="text/javascript" src="https://addevent.com/libs/atc/1.6.1/atc.min.js" async defer></script>
+    <script src="config.js"></script>
+    
+  
+</body>
+</html>
